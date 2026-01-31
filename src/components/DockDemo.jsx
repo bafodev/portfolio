@@ -11,7 +11,7 @@ export default function DockDemo() {
     ],
     social: [
       { name: "GitHub", url: "https://github.com/bafodev", icon: Github },
-      { name: "LinkedIn", url: "www.linkedin.com/in/bafode-toure", icon: Linkedin },
+      { name: "LinkedIn", url: "https://linkedin.com/in/bafode-toure", icon: Linkedin },
           {
       name: "Email",
       url: "mailto:bafode.toure.pro59@gmail.com",

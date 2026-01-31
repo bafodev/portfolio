@@ -20,7 +20,7 @@ export default function TopNav() {
 
   const handleClick = () => {
     window.open(
-      "https://github.com/bafodev/portfolio/blob/main/public/CV-TOURE-Bafode-3101.pdf",
+      "./CV-TOURE-Bafode-3101.pdf",
       "_blank",
       "noopener,noreferrer"
     );
