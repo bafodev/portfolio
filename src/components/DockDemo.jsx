@@ -10,8 +10,8 @@ export default function DockDemo() {
       { name : "Accueil", href: "", icon: HomeIcon, label: "Home" },
     ],
     social: [
-      { name: "GitHub", url: "https://github.com/bafghost59", icon: Github },
-      { name: "LinkedIn", url: "https://www.linkedin.com/in/bafod%C3%A9-toure-579723145/", icon: Linkedin },
+      { name: "GitHub", url: "https://github.com/bafodev", icon: Github },
+      { name: "LinkedIn", url: "www.linkedin.com/in/bafode-toure", icon: Linkedin },
           {
       name: "Email",
       url: "mailto:bafode.toure.pro59@gmail.com",
