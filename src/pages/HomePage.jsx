@@ -68,20 +68,20 @@ export default function HomePage() {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="flex flex-col overflow-x-auto snap-x snap-mandatory  gap-6 w-full rounded-t-2xl bg-slate-900/70 rounded-2xl border border-white/10 shadow-xl"
+                className="flex flex-col w-full rounded-2xl bg-slate-900/70 border border-white/10 shadow-xl"
               >
-                <div className="bg-slate-900/70 rounded-2xl border border-white/10 shadow-xl flex snap-x snap-mandatory overflow-x-auto  w-full">
+                <div className="flex snap-x snap-mandatory overflow-x-auto w-full h-52 rounded-t-2xl">
                 {project.image.map((imgPath) => (
                   <img
                     key={imgPath}
                     src={imgPath}
                     alt={project.title}
-                    className="snap-center shrink-0 w-full  object-contain"
+                    className="snap-center shrink-0 w-full h-full object-cover rounded-t-2xl"
                   />
                 ))}
                 </div>
                 
-                  <div className="p-2 bg-slate-900/70 ">
+                  <div className="p-3 bg-slate-900/70 rounded-b-2xl">
                     <p className="text-sm font-semibold text-[#ede9fe]">
                       {project.title}
                     </p>

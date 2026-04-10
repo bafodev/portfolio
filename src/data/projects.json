@@ -1,14 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Projet TodoList",
+    "title": "Projet La Cour Impériale",
     "image": [
-    "./TodoList1.png",
-     "./TodoList2.png",
-     "./TodoList 3.png",
-     "./TodoList4.png"
+    "./LCI1.png",
+     "./LCI2.png",
+     "./LCI3.png",
+     "./LCI4.png",
+      "./LCI5.png",
+      "./LCI6.png"
   ],
-    "description": "Projet Todolist codé en Front/Back avec authentification sécurisée (JWT)."
+    "description": "Projet La Cour Impériale effectué pour l'examen final - Front-End / Back-End."
   },
   {
     "id": 2,
